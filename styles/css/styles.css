@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  width: 1280px;
+  height: 1000px;
+  background: #000;
+}
+
+.name_container {
+  position: relative;
+}
+
+.video_name {
+  object-fit: contain;
+  position: relative;
+}
+
+.lastName_container {
+  position: absolute;
+  top: 10%;
+  opacity: 0.5;
+}
+
+.video_lastname {
+  transform: rotate(180deg);
+  top: 30%;
+  object-fit: contain;
+}
+
+.name {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  text-align: center;
+}
+
+.lastname {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  color: #ddd;
+  font-size: 5em;
+  font-family: sans-serif;
+  letter-spacing: 0.2em;
+}
+
+h1 span {
+  opacity: 0;
+  display: inline-block;
+  animation: animate 1s linear forwards;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: rotateY(90deg);
+    filter: blur(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: rotateY(0deg);
+    filter: blur(0);
+  }
+}
+.name h1 span:nth-child(1) {
+  animation-delay: 0.5s;
+}
+
+.name h1 span:nth-child(2) {
+  animation-delay: 1s;
+}
+
+.name h1 span:nth-child(3) {
+  animation-delay: 1.5s;
+}
+
+.name h1 span:nth-child(4) {
+  animation-delay: 2s;
+}
+
+.name h1 span:nth-child(5) {
+  animation-delay: 2.5s;
+}
+
+.name h1 span:nth-child(6) {
+  animation-delay: 3s;
+}
+
+.name h1 span:nth-child(7) {
+  animation-delay: 3.5s;
+}
+
+.name h1 span:nth-child(8) {
+  animation-delay: 4s;
+}
+
+.lastname h1 span:nth-child(10) {
+  animation-delay: 0.4s;
+}
+
+.lastname h1 span:nth-child(9) {
+  animation-delay: 0.8s;
+}
+
+.lastname h1 span:nth-child(8) {
+  animation-delay: 1.2s;
+}
+
+.lastname h1 span:nth-child(7) {
+  animation-delay: 1.6s;
+}
+
+.lastname h1 span:nth-child(6) {
+  animation-delay: 2s;
+}
+
+.lastname h1 span:nth-child(5) {
+  animation-delay: 2.4s;
+}
+
+.lastname h1 span:nth-child(4) {
+  animation-delay: 2.8s;
+}
+
+.lastname h1 span:nth-child(3) {
+  animation-delay: 3.2s;
+}
+
+.lastname h1 span:nth-child(2) {
+  animation-delay: 3.6s;
+}
+
+.lastname h1 span:nth-child(1) {
+  animation-delay: 4s;
+}
+
+/*# sourceMappingURL=styles.css.map */
